@@ -1,0 +1,59 @@
+/* src/components/Skills/Skills.css */
+
+.skills-page {
+    background-color: #181818; /* Dark background color */
+    color: white; /* Text color */
+    min-height: 100vh; /* Full viewport height */
+    padding: 40px 20px; /* Padding around the content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20rem;   
+  }
+  
+  .skills-title {
+    font-size: 2.5em;
+    margin-bottom: 30px; /* Space below the title */
+    text-align: center;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the tiles to wrap onto the next line */
+    justify-content: center; /* Center the tiles horizontally */
+    gap: 20px; /* Space between the tiles */
+    
+  }
+  
+  .skill-tile {
+    background-color: #323437; /* Slightly lighter dark color for the tiles */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+    width: 150px; /* Fixed width for each tile */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    place-items: center;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+  
+  .skill-tile:hover {
+    transform: translateY(-10px); /* Move tile up on hover */
+  }
+  
+  .skill-logo {
+    width: 60px; /* Width of the skill logo */
+    height: 60px; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the logo */
+  }
+  
+  .skill-name {
+    font-size: 1.2em; /* Font size for the skill name */
+    margin: 0;
+  }
+  
