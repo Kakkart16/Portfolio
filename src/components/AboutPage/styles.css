@@ -1,5 +1,5 @@
 
-.home-page {
+.about-page {
     display: flex;                  /* Flexbox to create a two-column layout */
     align-items: center;            /* Vertically center items */
     justify-content: center;        /* Center content horizontally */
@@ -7,7 +7,7 @@
     gap: 2rem;                      /* Space between the two columns */
   }
   
-  .intro-image {
+  .about-image {
     flex: 2;                        /* 2 parts of the total space (2:3 ratio) */
     display: flex;
     justify-content: center;        /* Center the image horizontally */
@@ -16,28 +16,28 @@
 
   }
   
-  .profile-pic {
-    width: 110%;                     /* Size of the image */
-    height: 110%;                   /* Maintain aspect ratio */
-    border-radius: 50%;             /* Make the image circular */
-    border: 5px solid #ddd;         /* Optional border around the image */
+  .about-pic {
+    width: 100%;                     /* Size of the image */
+    height: 100%;                   /* Maintain aspect ratio */
+    border-radius: 30%;             /* Make the image circular */
+    /* border: 5px solid #ddd;         Optional border around the image */
     
   }
   
-  .intro-text {
+  .about-text {
     flex: 3;                        /* 3 parts of the total space (2:3 ratio) */
     color: #333;                    /* Dark text color */
     text-align: left;               /* Align text to the left */
-    padding: 0 12rem;
+    padding: 0 8rem;
 
   }
   
-  .intro-text h1 {
+  .about-text h1 {
     font-size: 3.5rem;              /* Larger font size for the heading */
     margin-bottom: 1rem;            /* Space below the heading */
   }
   
-  .intro-text p {
+  .about-text p {
     font-size: 1.5rem;              /* Font size for the paragraph */
     line-height: 1.6;               /* Line height for better readability */
   }
