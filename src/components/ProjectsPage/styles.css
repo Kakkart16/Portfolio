@@ -25,6 +25,7 @@
   }
   
   .project-tile {
+    background-color: aliceblue;
     position: relative; /* For positioning the hover effect */
     cursor: pointer;
     width: 800px; /* Full width for the carousel */
@@ -38,9 +39,10 @@
   
   .project-image-container {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     /* height: 300px; Fixed height for the image container */
     overflow: hidden; /* Hide overflow for hover effect */
+    padding: 0.5rem 0.5rem;
   }
   
   .project-image {
@@ -63,16 +65,20 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 4rem;
     transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+    font-size: 1.5rem;
   }
   
   .project-tile:hover .project-description {
     opacity: 1; /* Show description on hover */
   }
+  .project-tile:hover .project-image {
+    opacity: 0.4; /* Show description on hover */
+  }
   
   .project-title {
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 15px 0;
   }
   

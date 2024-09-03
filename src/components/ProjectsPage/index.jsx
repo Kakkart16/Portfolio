@@ -1,61 +1,39 @@
 import React, { useState } from 'react';
 import './styles.css';
 
-import img1 from '../../assets/images/img1.jpg';
-import img2 from '../../assets/images/img2.jpg';
-import img3 from '../../assets/images/img3.jpg';
-import img4 from '../../assets/images/img4.jpg';
+import stockxplore from '../../assets/images/stockxplore.png';
+import fastlane from '../../assets/images/fastlane.png';
+import automailx from '../../assets/images/automailx.jpeg';
+import mrs from '../../assets/images/mrs.png';
 
 
 const projects = [
     {
       title: 'StockXplore',
-      image: img1,
-      description: 'A real-time stock price tracker application using celery and redis server',
+      image: stockxplore,
+      description: 'A real-time stock price tracker application built on django framework with integration of celery and redis server.',
       githubLink: 'https://github.com/Kakkart16/Stock-Price-Tracker'
     },
     {
       title: 'FastLane',
-      image: img2,
-      description: 'A python based minimalistic speed typing test platform.',
+      image: fastlane,
+      description: "A python based minimalistic speed typing test platform built using the python tkinter library. It tracks the user's speed in words per min (WPM) and characters per min (CPM).",
       githubLink: 'https://github.com/Kakkart16/Speed-Typing-Test'
     },
     {
       title: 'AutoMailX',
-      image: img3,
-      description: 'An automated email parser using python',
+      image: automailx,
+      description: 'An automated email parser using python and django. It automatically parse the incoming mails in outlook and fetch the important data and'+ 
+        ' store it in the datbase.',
       githubLink: 'https://github.com/Kakkart16/'
     },
     {
         title: 'Movie Recommendation System',
-        image: img4,
-        description: 'A movie recommendation app based on user input.',
+        image: mrs,
+        description: "A movie recommendation app. The model finds the top 10 movies realted to user's input using cosine similarity and on the basis of cast, crew and genre.",
         githubLink: 'https://github.com/Kakkart16/Movie-Recommendation-System'
     },
-    {
-        title: 'AutoMailX',
-        image: img3,
-        description: 'An automated email parser using python',
-        githubLink: 'https://github.com/Kakkart16/'
-    },
-    {
-        title: 'Movie Recommendation System',
-        image: img4,
-        description: 'A movie recommendation app based on user input.',
-        githubLink: 'https://github.com/Kakkart16/Movie-Recommendation-System'
-    },
-    {
-        title: 'AutoMailX',
-        image: img3,
-        description: 'An automated email parser using python',
-        githubLink: 'https://github.com/Kakkart16/'
-    },
-    {
-        title: 'Movie Recommendation System',
-        image: img4,
-        description: 'A movie recommendation app based on user input.',
-        githubLink: 'https://github.com/Kakkart16/Movie-Recommendation-System'
-    },
+    
     // Add more projects as needed
 ];
 
