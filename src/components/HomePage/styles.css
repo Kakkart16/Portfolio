@@ -1,71 +1,72 @@
 
 .home-page {
-    display: flex;                  /* Flexbox to create a two-column layout */
-    align-items: center;            /* Vertically center items */
-    justify-content: center;        /* Center content horizontally */
-    padding: 8rem;                  /* Padding around the section */
-    gap: 2rem;                      /* Space between the two columns */
+    background-color: #FDFDFD;
+    display: flex;                  
+    align-items: center;            
+    justify-content: center;        
+    padding: 8rem;                  
+    gap: 2rem;
   }
   
-  .intro-image {
-    flex: 2;                        /* 2 parts of the total space (2:3 ratio) */
+.intro-image {
+    flex: 2;                        
     display: flex;
-    justify-content: center;        /* Center the image horizontally */
-    align-items: center;            /* Center the image vertically */
+    justify-content: center;        
+    align-items: center;            
     padding: 0 8rem;
     margin-top: 5rem;
-  }
+}
 
   
   
-  .profile-pic {
-    width: 110%;                     /* Size of the image */
-    height: 110%;                   /* Maintain aspect ratio */
-    border-radius: 50%;             /* Make the image circular */
-    border: 5px solid #ddd;         /* Optional border around the image */
+.profile-pic {
+    width: 110%;            
+    height: 110%;       
+    border-radius: 50%;    
+    border: 5px solid #ddd;         
     
-  }
+}
   
-  .intro-text {
-    flex: 3;                        /* 3 parts of the total space (2:3 ratio) */
-    color: #333;                    /* Dark text color */
-    text-align: left;               /* Align text to the left */
+.intro-text {
+    flex: 3;                        
+    color: #333;
+    text-align: left;               
     padding: 0 8rem;
     margin-top: 5rem;
     opacity: 0.8;
 
-  }
+}
 
-  .home-page .intro-text .highlight {
-    color: #f0a500; /* Replace this color with your desired color */
-  }
+.home-page .intro-text .highlight {
+    color: #f0a500; 
+}
   
-  .intro-text h1 {
+.intro-text h1 {
     margin: 0;
-    font-size: 3.5rem;              /* Larger font size for the heading */
-    margin-bottom: 1rem;           /* Space below the heading */
-  }
+    font-size: 3.5rem;             
+    margin-bottom: 1rem;           
+}
   
-  .intro-text p {
-    font-size: 1.5rem;              /* Font size for the paragraph */
-    line-height: 1.6;               /* Line height for better readability */
+.intro-text p {
+    font-size: 1.5rem;              
+    line-height: 1.6;               
     padding: 0.5rem;
-  }
+}
   
 
-  .resume-btn {
-    display: inline-block; /* Makes the anchor look like a button */
-    padding: 10px 20px; /* Adds padding to the button */
-    margin-top: 10px; /* Adds some space above the button */
-    color: black; /* Text color */
+.resume-btn {
+    display: inline-block;
+    padding: 10px 20px; 
+    margin-top: 10px; 
+    color: black; 
     border: 5px solid #ddd;
-    text-decoration: none; /* Removes underline from the link */
-    font-size: 24px; /* Font size of the button text */
-    transition: background-color 0.3s ease; /* Smooth transition effect */
+    text-decoration: none; 
+    font-size: 24px; 
+    transition: background-color 0.3s ease;
     font-weight: bold;
     opacity: 0.8;
-  }
+}
   
-  .resume-btn:hover {
-    background-color: #f0a500; /* Darker shade on hover */
-  }
+.resume-btn:hover {
+    background-color: #f0a500;
+}

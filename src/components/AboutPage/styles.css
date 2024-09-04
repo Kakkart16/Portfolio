@@ -1,45 +1,64 @@
 
 .about-page {
-    display: flex;                  /* Flexbox to create a two-column layout */
-    align-items: center;            /* Vertically center items */
-    justify-content: center;        /* Center content horizontally */
-    padding: 8rem;                  /* Padding around the section */
-    gap: 2rem;                      /* Space between the two columns */
-  }
+    background-color: #FDFDFD;
+    display: flex;                
+    align-items: center;            
+    justify-content: center;     
+    padding: 8rem;               
+    gap: 2rem;                      
+}
   
-  .about-image {
-    flex: 2;                        /* 2 parts of the total space (2:3 ratio) */
+.about-image {
+    flex: 2;                        
     display: flex;
-    justify-content: center;        /* Center the image horizontally */
-    align-items: center;            /* Center the image vertically */
+    justify-content: center;        
+    align-items: center;            
     padding: 0 8rem;
 
-  }
+}
   
-  .about-pic {
-    width: 100%;                     /* Size of the image */
-    height: 100%;                   /* Maintain aspect ratio */
-    border-radius: 30%;             /* Make the image circular */
-    /* border: 5px solid #ddd;         Optional border around the image */
+.about-pic {
+    width: 100%;                     
+    height: 100%;                   
+    border-radius: 30%;             
     
-  }
+}
   
-  .about-text {
-    flex: 3;                        /* 3 parts of the total space (2:3 ratio) */
-    color: #333;                    /* Dark text color */
-    text-align: left;               /* Align text to the left */
+.about-text {
+    flex: 3;                        
+    color: #333;                    
+    text-align: left;               
     padding: 0 8rem;
     opacity: 0.8;
 
-  }
+}
+
+.profile-icons {
+    /* display: flex; */
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+  
+.profile-icon {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin: 1rem;
+}
+  
+.profile-icon:hover {
+    
+    /* color: #0073b1;  */
+    transform: translateY(-5px);
+}
   
   .about-text h1 {
-    font-size: 3.5rem;              /* Larger font size for the heading */
-    margin-bottom: 1rem;            /* Space below the heading */
+    font-size: 3.5rem;              
+    margin-bottom: 1rem;            
   }
   
   .about-text p {
-    font-size: 1.5rem;              /* Font size for the paragraph */
-    line-height: 1.6;               /* Line height for better readability */
+    font-size: 1.5rem;              
+    line-height: 1.6;               
   }
   

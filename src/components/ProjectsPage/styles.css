@@ -1,9 +1,9 @@
 
 .projects-page {
-    background-color: #f4f4f4; /* Light background color */
-    color: #333; /* Text color */
-    min-height: 100vh; /* Full viewport height */
-    padding: 20px 20px; /* Padding around the content */
+    background-color: #f4f4f4; 
+    color: #333; 
+    min-height: 100vh; 
+    padding: 20px 20px;  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,36 +20,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative; /* Position relative for nav button positioning */
-    width: 70%; /* Adjust width as needed */
+    position: relative; 
+    width: 70%; 
   }
   
   .project-tile {
     background-color: aliceblue;
-    position: relative; /* For positioning the hover effect */
+    position: relative; 
     cursor: pointer;
-    width: 800px; /* Full width for the carousel */
+    width: 800px; 
     height: 600px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius: 10px; /* Rounded corners */
-    overflow: hidden; /* Hide overflow for hover effect */
-    transition: transform 0.3s ease; /* Smooth hover effect */
-    text-align: center; /* Center text inside the tile */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    overflow: hidden; 
+    transition: transform 0.3s ease; 
+    text-align: center; 
   }
   
   .project-image-container {
     position: relative;
-    /* width: 100%; */
-    /* height: 300px; Fixed height for the image container */
-    overflow: hidden; /* Hide overflow for hover effect */
+    
+    overflow: hidden;
     padding: 0.5rem 0.5rem;
   }
   
   .project-image {
     width: 100%;
     height: 500px;
-    object-fit: fill; /* Cover the container while maintaining aspect ratio */
-    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+    object-fit: fill; 
+    transition: opacity 0.3s ease; 
   }
   
   .project-description {
@@ -58,23 +57,23 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    background-color: rgba(0, 0, 0, 0.7); 
     color: white;
-    opacity: 0; /* Start hidden */
+    opacity: 0; 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 4rem;
-    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+    transition: opacity 0.3s ease; 
     font-size: 1.5rem;
   }
   
   .project-tile:hover .project-description {
-    opacity: 1; /* Show description on hover */
+    opacity: 1; 
   }
   .project-tile:hover .project-image {
-    opacity: 0.4; /* Show description on hover */
+    opacity: 0.4; 
   }
   
   .project-title {
@@ -87,25 +86,25 @@
     border: none;
     font-size: 2em;
     cursor: pointer;
-    color: #333; /* Button text color */
+    color: #333; 
     padding: 10px;
-    transition: color 0.3s ease; /* Smooth hover transition */
+    transition: color 0.3s ease; 
   }
   
   .nav-button:hover {
-    color: #555; /* Darker color on hover */
+    color: #555; 
   }
   
   .nav-button.left {
     position: absolute;
-    left: -40px; /* Adjust positioning as needed */
+    left: -40px;
     top: 50%;
     transform: translateY(-50%);
   }
   
   .nav-button.right {
     position: absolute;
-    right: -40px; /* Adjust positioning as needed */
+    right: -40px; 
     top: 50%;
     transform: translateY(-50%);
   }
