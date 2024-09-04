@@ -50,23 +50,40 @@ const ProjectsPage = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + projects.length) % projects.length);
   };
 
+  const prevIndex = (currentIndex - 1 + projects.length) % projects.length;
+  const nextIndex = (currentIndex + 1) % projects.length;
+
 return (
     <div className="projects-page" id="projects">
         <h1 className="projects-title">My Projects</h1>
         <div className="carousel-container">
             <button className="nav-button left" onClick={goToPreviousProject}> ❮ </button>
-            <div className="project-tile" onClick={() => window.open(projects[currentIndex].githubLink, "_blank")}>
-                <div className="project-image-container">
-                    <img
-                        src={projects[currentIndex].image}
-                        alt={projects[currentIndex].title}
-                        className="project-image"
-                    />
-                    <div className="project-description">
-                        {projects[currentIndex].description}
-                    </div>
+            <div className="project-tile prev-tile">
+                <img
+                  src={projects[prevIndex].image}
+                  alt={projects[prevIndex].title}
+                  className="project-image"
+                />
+            </div>
+            <div className="project-tile main-tile" onClick={() => window.open(projects[currentIndex].githubLink, '_blank')}>
+              <div className="project-image-container">
+                <img
+                  src={projects[currentIndex].image}
+                  alt={projects[currentIndex].title}
+                  className="project-image"
+                />
+                <div className="project-description">
+                  {projects[currentIndex].description}
                 </div>
-                <h3 className="project-title">{projects[currentIndex].title}</h3>
+              </div>
+              <h3 className="project-title">{projects[currentIndex].title}</h3>
+            </div>
+            <div className="project-tile next-tile">
+              <img
+                src={projects[nextIndex].image}
+                alt={projects[nextIndex].title}
+                className="project-image"
+              />
             </div>
             <button className="nav-button right" onClick={goToNextProject}> ❯ </button>
         </div>
