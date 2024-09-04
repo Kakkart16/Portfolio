@@ -9,23 +9,23 @@
     align-items: center;
     justify-content: center;
     padding: 20px 20rem;   
-  }
+}
   
-  .skills-title {
+.skills-title {
     font-size: 2.5em;
     margin-bottom: 30px; /* Space below the title */
     text-align: center;
-  }
+}
   
-  .skills-container {
+.skills-container {
     display: flex;
     flex-wrap: wrap; /* Allows the tiles to wrap onto the next line */
     justify-content: center; /* Center the tiles horizontally */
     gap: 20px; /* Space between the tiles */
     
-  }
+}
   
-  .skill-tile {
+.skill-tile {
     background-color: #323437; /* Slightly lighter dark color for the tiles */
     border-radius: 10px; /* Rounded corners */
     padding: 20px;
@@ -41,18 +41,39 @@
     flex-direction: column;
 }
   
-  .skill-tile:hover {
-    transform: translateY(-10px); /* Move tile up on hover */
-  }
+.skill-tile:hover {
+    transform: translateY(-10px); 
+}
   
-  .skill-logo {
-    width: 70px; /* Width of the skill logo */
-    height: 60px; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Space below the logo */
-  }
+.skill-logo {
+    width: 70px; 
+    height: 60px; 
+    margin-bottom: 20px; 
+}
   
-  .skill-name {
-    font-size: 1.2em; /* Font size for the skill name */
+.skill-name {
+    font-size: 1.2em; 
     margin: 0;
+}
+
+
+@media (min-width:480px) and (max-width: 768px) {
+  .skills-page {
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center; 
   }
+
+  
+}
+
+@media (max-width: 480px) {
+  .skills-page {
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center; 
+  }
+
+  
+}
   
