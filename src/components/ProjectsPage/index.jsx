@@ -30,7 +30,7 @@ const projects = [
     {
         title: 'Movie Recommendation System',
         image: mrs,
-        description: "A movie recommendation app. The model finds the top 10 movies realted to user's input using cosine similarity and on the basis of cast, crew and genre.",
+        description: "A movie recommendation app. The model finds the top 10 movies related to user's input using cosine similarity and on the basis of cast, crew and genre.",
         githubLink: 'https://github.com/Kakkart16/Movie-Recommendation-System'
     },
     

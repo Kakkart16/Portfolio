@@ -39,7 +39,7 @@ const AboutPage = () => {
             <img src={lc} alt="CF" style={{ width: '50px' }} />
           </a>
           <a
-            href="https://github.com/Kakkart16"
+            href="https://www.codechef.com/users/kakkart_16"
             className="profile-icon"
             rel="noopener noreferrer"
             title="Codechef"
