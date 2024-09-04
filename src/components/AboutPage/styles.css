@@ -48,17 +48,51 @@
   
 .profile-icon:hover {
     
-    /* color: #0073b1;  */
     transform: translateY(-5px);
 }
   
-  .about-text h1 {
+.about-text h1 {
     font-size: 3.5rem;              
     margin-bottom: 1rem;            
-  }
+}
   
-  .about-text p {
+.about-text p {
     font-size: 1.5rem;              
     line-height: 1.6;               
-  }
+}
+
+@media (min-width:480px) and (max-width: 768px) {
+    .about-page {
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+    }
+  
+    .about-image {
+        display: flex;
+        width: 80%;
+    }
+  
+    .about-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-page {
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+    }
+  
+    .about-image {
+        display: flex;
+        width: 50%;
+        
+    }
+  
+    .about-text {
+        text-align: center;
+    }
+}
   
