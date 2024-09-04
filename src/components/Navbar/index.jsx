@@ -11,12 +11,18 @@ const Navbar = () => {
     setIsContactOpen(!isContactOpen);
   };
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-logo">
         <a href="/">TK</a>
       </div>
-      <ul className="navbar-links">
+      <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -25,6 +31,9 @@ const Navbar = () => {
             <button className="contact-btn" onClick={toggleContactPopup}>Contact</button>
         </li>
       </ul>
+      <div className="navbar-hamburger" onClick={toggleMenu}>
+        <span className="hamburger-icon">&#9776;</span>
+      </div>
       <ContactPopup isOpen={isContactOpen} onClose={toggleContactPopup} />
     </nav>
   );

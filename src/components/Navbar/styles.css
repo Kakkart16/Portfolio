@@ -22,8 +22,8 @@
     list-style: none;                
     display: flex; 
     align-items: center;                  
-    gap: 2rem;   
-    padding: 0 2rem;                  
+    gap: 1.5rem;   
+    padding: 0 1rem;                  
 }
 
 .navbar-links li {
@@ -54,4 +54,43 @@
   
 .contact-btn:hover {
     background-color: #d48c00;       
+}
+
+
+.navbar-hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 2rem;
+}
+  
+.hamburger-icon {
+    font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        background-color: #333;
+        width: auto;
+        height: auto;
+        border-radius: 8px;
+        gap:0.5rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    .navbar-links li {
+        padding: 0.5rem 0.5rem;               
+    }
+  
+    .navbar-links.active {
+        display: flex;
+    }
+  
+    .navbar-hamburger {
+        display: block;
+    }
 }
