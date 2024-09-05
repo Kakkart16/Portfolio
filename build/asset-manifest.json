@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c7ccddc3.css",
+    "main.js": "/portfolio/static/js/main.8134a064.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/photo.jpeg": "/portfolio/static/media/photo.7d55f3e1f0845147e07d.jpeg",
+    "static/media/linux.png": "/portfolio/static/media/linux.ea889cb750d835e18e91.png",
+    "static/media/stockxplore.png": "/portfolio/static/media/stockxplore.48edb001879ed03e5730.png",
+    "static/media/about_pic.jpeg": "/portfolio/static/media/about_pic.d408f059cfe2a7f1c19f.jpeg",
+    "static/media/aws.png": "/portfolio/static/media/aws.c49fec7a1aa81073e34e.png",
+    "static/media/automailx.jpeg": "/portfolio/static/media/automailx.427e244e07799bd4fb0e.jpeg",
+    "static/media/python.png": "/portfolio/static/media/python.696fb673ae2c4cb29d89.png",
+    "static/media/fastlane.png": "/portfolio/static/media/fastlane.727bf9d63b61e117aab5.png",
+    "static/media/react.png": "/portfolio/static/media/react.83c3e3aece294851eb93.png",
+    "static/media/redis.png": "/portfolio/static/media/redis.9330d35583a60768867c.png",
+    "static/media/mrs.png": "/portfolio/static/media/mrs.65423eaee2a0e84fc29e.png",
+    "static/media/cpp.png": "/portfolio/static/media/cpp.586dea4c7e14cf834ec9.png",
+    "static/media/flask.png": "/portfolio/static/media/flask.574ce1fd6763beb70ada.png",
+    "static/media/gmail.png": "/portfolio/static/media/gmail.cd0aefb0483b7dbf8448.png",
+    "static/media/github.png": "/portfolio/static/media/github.05f6c17b8cd04c28456f.png",
+    "static/media/git.png": "/portfolio/static/media/git.2012a6646c5ae505e6ce.png",
+    "static/media/django.png": "/portfolio/static/media/django.ba7c8fa60708685d75c1.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.ae35ab7f9b8e48760129.png",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/codeforces.svg": "/portfolio/static/media/codeforces.e6267e65a68747a6d2670f621a5af89b.svg",
+    "static/media/codechef.svg": "/portfolio/static/media/codechef.461978f271d519b355f5bacf086d6fe6.svg",
+    "static/media/leet-code.svg": "/portfolio/static/media/leet-code.dd873da27d35d913d1132337bfd8585e.svg",
+    "index.html": "/portfolio/index.html",
+    "main.c7ccddc3.css.map": "/portfolio/static/css/main.c7ccddc3.css.map",
+    "main.8134a064.js.map": "/portfolio/static/js/main.8134a064.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7ccddc3.css",
+    "static/js/main.8134a064.js"
+  ]
+}
