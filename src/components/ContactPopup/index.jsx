@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
-import {  FaLinkedin, FaGithub} from 'react-icons/fa';
+import linkedin from '../../assets/icons/linkedin.png';
+import github from '../../assets/icons/github.png';
 import gmailLogo from '../../assets/icons/gmail.png';
 
 const ContactPopup = ({ isOpen, onClose }) => {
@@ -17,7 +18,6 @@ const ContactPopup = ({ isOpen, onClose }) => {
             title="Email"
             style={{ color: 'yellow' }} // Email color (Gmail red)
           >
-            {/* <FaEnvelope size={50} /> */}
             <img src={gmailLogo} alt="Gmail" style={{ width: '50px' }} />
           </a>
           <a
@@ -28,7 +28,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
             title="LinkedIn"
             style={{ color: '#0077B5' }} // LinkedIn blue
           >
-            <FaLinkedin size={50} />
+            <img src={linkedin} alt="Gmail" style={{ width: '50px' }} />
           </a>
           <a
             href="https://github.com/Kakkart16"
@@ -38,7 +38,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
             title="GitHub"
             style={{ color: '#171515' }} // GitHub black
           >
-            <FaGithub size={50} />
+           <img src={github} alt="Gmail" style={{ width: '50px' }} /> 
           </a>
           {/* Add more icons as needed */}
         </div>
