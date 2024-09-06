@@ -28,7 +28,7 @@ const AboutPage = () => {
             rel="noopener noreferrer"
             title="Codeforces"
           >
-            <img src={cf} alt="CF" style={{ width: '50px' }} />
+            <img className="ic" src={cf} alt="CF" />
           </a>
           <a
             href="https://leetcode.com/u/kakkart16/"
@@ -36,7 +36,7 @@ const AboutPage = () => {
             rel="noopener noreferrer"
             title="Leetcode"
           >
-            <img src={lc} alt="CF" style={{ width: '50px' }} />
+            <img className="ic" src={lc} alt="CF"/>
           </a>
           <a
             href="https://www.codechef.com/users/kakkart_16"
@@ -44,7 +44,7 @@ const AboutPage = () => {
             rel="noopener noreferrer"
             title="Codechef"
           >
-            <img src={cc} alt="CF" style={{ width: '50px' }} />
+            <img className="ic" src={cc} alt="CF"/>
           </a>
           {/* Add more icons as needed */}
         </div>

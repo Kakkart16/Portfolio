@@ -1,18 +1,24 @@
+html, body {
+  width: 100%;
+  overflow-x: hidden; 
+}
+
 .App {
   text-align: center;
   display: flex;
   flex-direction: column;
   background-color: #FDFDFD;
+  width: 100vw;
 }
 
 .nav-container{
   position: fixed;
   z-index: 1000;
-  width: 100%;
+  width: 100vw;
 }
 
 .section-container{
-  margin-top: 75px;
+  width: 100vw;
 }
 
 .App-logo {

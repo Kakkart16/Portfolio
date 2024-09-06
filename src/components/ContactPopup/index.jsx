@@ -10,7 +10,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
   return (
     <div className="contact-popup-overlay" onClick={onClose}>
       <div className="contact-popup" onClick={(e) => e.stopPropagation()}>
-        <h2>Contact Me:</h2>
+        <h2>Contact Via:</h2>
         <div className="contact-icons">
           <a
             href="mailto:kakkartushar.16@gmail.com"

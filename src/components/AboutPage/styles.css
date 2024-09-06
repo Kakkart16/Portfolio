@@ -6,7 +6,8 @@
     justify-content: center;     
     gap: 4rem;      
     padding: 6rem 4rem;            
-    box-sizing: border-box;           
+    box-sizing: border-box;  
+    min-height: 100vh;         
 }
   
 .about-image {
@@ -19,10 +20,10 @@
 }
   
 .about-pic {
-    height: 550px;
+    height: 530px;
     width: 450px;                 
     border-radius: 30%;             
-    
+    padding: 2rem 0rem;
 }
   
 .about-text {
@@ -45,9 +46,12 @@
     transition: color 0.3s ease;
     margin: 1rem;
 }
+
+.profile-icon > img{
+    width: 50px;
+}
   
 .profile-icon:hover {
-    
     transform: translateY(-5px);
 }
   
@@ -61,21 +65,79 @@
     line-height: 1.6;               
 }
 
-/* @media (min-width:480px) and (max-width: 768px) {
+@media (max-width:1280px) and (min-width:768px){
+
+    .about-page{
+        gap: 2rem;
+        padding: 1rem 1rem;  
+        width: 100vw; 
+    }
+    .about-image{
+        padding: 1rem 1rem;
+    }
+
+    .about-pic{
+        width: 300px;
+        height: 350px;
+    }
+
+    .about-text{
+        padding: 1rem 1rem; 
+    }
+
+    .about-text h1 {
+        margin: 0;
+        font-size: 2.5rem;             
+        margin-bottom: 1rem;          
+    }
+    
+    .about-text p {
+        font-size: 1.5rem;              
+        line-height: 1;               
+        padding: 0rem 0.5rem;
+    }
+
+}
+
+@media (min-width:480px) and (max-width: 768px) {
     .about-page {
         flex-direction: column;
         align-items: center; 
         justify-content: center; 
+        gap: 0rem;
+        padding: 1rem 2rem;
     }
-  
-    .about-image {
-        display: flex;
-        width: 80%;
+
+    .about-image{
+        padding: 2rem 0rem;
+        display: none;
     }
-  
-    .about-text {
-        text-align: center;
+
+    .about-text{
+        padding: 4rem 2rem;
     }
+
+    .about-pic{
+        width: 310px;
+        height: 350px;
+    }
+
+    .about-text h1 {
+        margin: 0;
+        font-size: 3rem;             
+        margin-bottom: 1rem;           
+    }
+    
+    .about-text p {
+        font-size: 1.5rem;              
+        line-height: 1;               
+        padding: 0.5rem;
+    }
+
+    .profile-icon > img{
+        width: 40px;
+    }
+   
 }
 
 @media (max-width: 480px) {
@@ -83,16 +145,44 @@
         flex-direction: column;
         align-items: center; 
         justify-content: center; 
+        gap: 0rem;
+        padding: 1rem 2rem;
     }
-  
-    .about-image {
-        display: flex;
-        width: 50%;
-        
+
+    .about-image{
+        display: none;
+        padding: 0.5rem 0.5rem;
     }
-  
-    .about-text {
-        text-align: center;
+
+    .about-text{
+        padding: 2rem 0.5rem;
     }
+
+    .about-pic{
+        width: 230px;
+        height: 280px;
+    }
+
+    .about-text h1 {
+        margin: 0;
+        font-size: 2.5rem;             
+        margin-bottom: 1rem; 
+        padding-top: 2rem;          
+    }
+    
+    .about-text p {
+        font-size: 1.5rem;              
+        line-height: 1;               
+        padding: 0.5rem;
+    }
+
+    .profile-icons{
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+
+    .profile-icon > img{
+        width: 30px;
+    }
+    
 }
-   */
