@@ -1,44 +1,43 @@
-
 .skills-page {
-    background-color: #181818; /* Dark background color */
-    color: white; /* Text color */
-    min-height: 100vh; /* Full viewport height */
-    padding: 40px 20px; /* Padding around the content */
+    background-color: #181818; 
+    color: white; 
+    min-height: 100vh; 
+    padding: 40px 20px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 20rem;   
+    padding: 4rem 4rem;            
+    box-sizing: border-box;
 }
   
 .skills-title {
     font-size: 2.5em;
-    margin-bottom: 30px; /* Space below the title */
+    margin-bottom: 30px; 
     text-align: center;
 }
   
 .skills-container {
     display: flex;
-    flex-wrap: wrap; /* Allows the tiles to wrap onto the next line */
-    justify-content: center; /* Center the tiles horizontally */
-    gap: 20px; /* Space between the tiles */
-    
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 1rem 4rem;
 }
   
 .skill-tile {
-    background-color: #323437; /* Slightly lighter dark color for the tiles */
-    border-radius: 10px; /* Rounded corners */
+    background-color: #323437; 
+    border-radius: 10px; 
     padding: 20px;
     text-align: center;
     height: 150px;
-    width: 150px; /* Fixed width for each tile */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-    transition: transform 0.3s ease; /* Smooth hover effect */
-    place-items: center;
-    justify-content: center;
-    align-items: center; 
+    width: 150px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease; 
     display: flex;
     flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
 }
   
 .skill-tile:hover {
@@ -56,24 +55,47 @@
     margin: 0;
 }
 
-
-@media (min-width:480px) and (max-width: 768px) {
+/* 
+@media (min-width: 480px) and (max-width: 768px) {
   .skills-page {
-      flex-direction: column;
-      align-items: center; 
-      justify-content: center; 
+      padding: 20px 5rem; 
   }
 
-  
-}
-
-@media (max-width: 480px) {
-  .skills-page {
-      flex-direction: column;
-      align-items: center; 
-      justify-content: center; 
+  .skill-tile {
+      height: 120px; 
+      width: 120px;  
   }
 
-  
-}
-  
+  .skill-logo {
+      width: 60px; 
+      height: 50px; 
+  }
+
+  .skills-container {
+      gap: 15px; 
+  }
+} */
+
+/* @media (max-width: 480px) {
+  .skills-page {
+      padding: 20px 2rem; 
+  }
+
+  .skill-tile {
+      height: 100px; 
+      width: 100px;  
+  }
+
+  .skill-logo {
+      width: 50px; 
+      height: 40px; 
+  }
+
+  .skills-container {
+      gap: 10px; 
+  }
+
+  .skills-title {
+      font-size: 2em; 
+  }
+} */

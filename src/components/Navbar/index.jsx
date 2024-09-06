@@ -22,18 +22,21 @@ const Navbar = () => {
       <div className="navbar-logo">
         <a href="/">TK</a>
       </div>
-      <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li>
-            <button className="contact-btn" onClick={toggleContactPopup}>Contact</button>
-        </li>
-      </ul>
-      <div className="navbar-hamburger" onClick={toggleMenu}>
-        <span className="hamburger-icon">&#9776;</span>
+      <div className="nav-panel">
+        <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li>
+              <button className="contact-btn" onClick={toggleContactPopup}>Contact</button>
+          </li>
+        </ul>
+        <div className="navbar-hamburger" onClick={toggleMenu}>
+          <span className="hamburger-icon">&#9776;</span>
+        </div>
       </div>
+      
       <ContactPopup isOpen={isContactOpen} onClose={toggleContactPopup} />
     </nav>
   );

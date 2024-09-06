@@ -9,11 +9,15 @@ import ProjectsPage from './components/ProjectsPage';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HomePage />
-      <AboutPage />
-      <SkillsPage />
-      <ProjectsPage />
+      <div className='nav-container'>
+        <Navbar />
+      </div>
+      <div className='section-container'>
+        <HomePage />
+        <AboutPage />
+        <SkillsPage />
+        <ProjectsPage />
+      </div>
     </div>
   );
 }

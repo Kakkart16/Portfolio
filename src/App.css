@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #FDFDFD;
+}
+
+.nav-container{
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.section-container{
+  margin-top: 75px;
 }
 
 .App-logo {
