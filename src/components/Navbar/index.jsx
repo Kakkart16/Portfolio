@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <a href="/">TK</a>
+        <a href="#home">TK</a>
       </div>
       <div className="nav-panel">
         <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
